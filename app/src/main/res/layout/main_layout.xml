@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
+    <!-- TODO: MyProfile with buttons -->
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
@@ -82,6 +85,7 @@
             android:background="@color/white"
             android:orientation="vertical">
 
+            <!-- TODO: ? -->
             <LinearLayout
                 android:layout_width="244dp"
                 android:layout_height="110dp"
@@ -106,15 +110,15 @@
                 android:id="@+id/editProfileBtn"
                 android:layout_width="370dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/profile_button"
+                android:paddingLeft="120dp"
+                android:paddingRight="120dp"
                 android:text="@string/edit_profile_button"
                 android:textAllCaps="false"
                 android:textColor="@drawable/profile_button_text_color"
-                android:textSize="14sp"
-                android:paddingLeft="120dp"
-                android:paddingRight="120dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp" />
+                android:textSize="14sp" />
 
             <Button
                 android:id="@+id/contactsBtn"
@@ -136,4 +140,4 @@
 
 
     </LinearLayout>
-</layout>
+</FrameLayout>

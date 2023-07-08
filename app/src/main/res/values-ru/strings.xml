@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">task-1</string>
     <string name="settings">Настройки</string>
     <string name="name_lastname_placeholder">Имя Фамилия</string>
     <string name="career_placeholder">Должность</string>
@@ -14,7 +13,6 @@
     <string name="password_placeholder">Пароль</string>
     <string name="enter_pass">Введите пароль</string>
     <string name="remember_me_checkbox">Запомнить меня</string>
-    <string name="google_button">GOOGLE</string>
     <string name="or">или</string>
     <string name="register_button">ЗАРЕГИСТРИРОВАТЬСЯ</string>
     <string name="terms_agreement">Нажимая Зарегистрироваться вы оглашаетесь с\nнашими условиями и положениями</string>

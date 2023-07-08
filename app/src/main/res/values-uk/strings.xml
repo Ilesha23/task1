@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">task-1</string>
     <string name="settings">Налаштування</string>
     <string name="name_lastname_placeholder">Ім\'я Прізвище</string>
     <string name="career_placeholder">Посада</string>
